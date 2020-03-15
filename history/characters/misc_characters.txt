@@ -1,0 +1,120 @@
+77782 = {
+   name = "RT Game"
+   culture = "pickens"
+   dynasty = 66660
+   religion = "goone_squad"
+   female = no
+   #historical = yes
+   dna = "b0000000000"
+   father = 87771
+
+   trait = elusive_shadow	
+   trait = genius
+   trait = shrewd
+   trait = gamer	
+   trait = diligent
+   trait = greedy
+   trait = ambitious
+  disallow_random_traits = yes
+
+  780.04.13 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+77783 = {
+   name = "Kevin"
+   dynasty = 66660
+   culture = "pickens"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "e0000000000"
+   father = 87771
+
+   trait = elusive_shadow	
+   trait = genius
+   trait = shrewd
+   trait = gamer	
+   trait = diligent
+   trait = greedy
+   trait = ambitious
+  disallow_random_traits = yes
+
+  780.11.10 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+87771 = {
+   name = "Jim"
+   dynasty = 66660
+   culture = "pickens" # pickens culture
+   religion = "goone_squad" # dear leader religion
+   female = no
+   #historical = yes 
+   dna = "a0000000000"
+
+   trait = elusive_shadow	
+   trait = genius
+   trait = shrewd
+   trait = gamer	
+   trait = diligent
+   trait = greedy
+   trait = ambitious
+  disallow_random_traits = yes
+
+  776.10.26 = {
+    birth = yes
+  }
+}
+
+87772 = {
+   name = "Reanu Keaves"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   father = 77777
+   dna = "o0000000000"
+
+  783.10.26 = {
+    birth = yes
+  }
+}
+
+87773 = {
+   name = "Grognak"
+   dynasty = 66660
+   culture = "pickens"
+   religion = "goone_squad"
+   female = no
+   father = 87771
+   dna = "c0000000000"
+
+  776.10.26 = {
+    birth = yes
+  }
+}
+
+87774 = {
+   name = "Grim"
+   dynasty = 66660
+   culture = "pickens"
+   religion = "goone_squad"
+   female = no
+   father = 87771
+   dna = "d0000000000"
+
+  776.10.26 = {
+    birth = yes
+  }
+}

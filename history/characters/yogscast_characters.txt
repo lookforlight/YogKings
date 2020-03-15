@@ -1,0 +1,406 @@
+77771 = {
+  name = "Lewis"
+  dynasty = 77770
+  culture = "yogs"
+  religion = "goone_squad"
+  female = no
+  father = 77774
+  dna = "paaaaaaaaaa"
+
+  trait = fortune_builder
+  trait = drunkard
+  trait = quick
+  trait = diligent
+  trait = wroth
+  trait = aggressive_leader
+  disallow_random_traits = yes
+
+  #Character history
+  768.10.22 = {
+    birth = yes
+  }
+}
+
+77772 = {
+   name = "Simon"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "a0000000000"
+
+   trait = charismatic_negotiator
+   trait = kind
+   trait = quick
+   trait = dwarf
+   trait = humble
+   trait = content
+  disallow_random_traits = yes
+
+  763.03.14 = {
+    birth = yes
+    
+  }
+}
+
+77773 = {
+   name = "Sips"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "c0000000000"
+
+   trait = midas_touched
+   trait = fair
+   trait = robust
+   trait = gardener	
+   trait = charitable
+   trait = proud
+   trait = stubborn
+  disallow_random_traits = yes
+
+  766.06.05 = {
+    birth = yes
+  }
+}
+
+77774 = {
+   name = "Harvey J."
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+
+   trait = midas_touched
+   trait = fair
+   trait = robust
+   trait = gardener	
+   trait = charitable
+   trait = proud
+   trait = stubborn
+
+  740.01.01 = {
+    birth = yes
+  }
+  800.01.01 = {
+      death = yes
+   }
+}
+
+77775 = {
+   name = "Duncan"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "b0000000000"
+
+   trait = brilliant_strategist
+   trait = genius
+   trait = shrewd
+   trait = strategist	
+   trait = diligent
+   trait = organizer
+  disallow_random_traits = yes
+
+  772.03.01 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 77771
+   }
+}
+
+77776 = {
+   name = "Ben"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "shark_guard"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "d0000000000"
+
+   trait = mastermind_theologian
+   trait = quick
+   trait = administrator	
+   trait = trusting
+   trait = honest
+   trait = holy_warrior
+  disallow_random_traits = yes
+
+  768.2.2 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 77771
+   }
+}
+
+77777 = {
+   name = "Spiff"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "e0000000000"
+
+   trait = elusive_shadow	
+   trait = genius
+   trait = shrewd
+   trait = gamer	
+   trait = diligent
+   trait = greedy
+   trait = ambitious
+  disallow_random_traits = yes
+
+  775.01.01 = {
+    birth = yes
+  }
+}
+
+77778 = {
+   name = "Tom"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "f0000000000"
+
+   trait = elusive_shadow	
+   trait = genius
+   trait = shrewd
+   trait = schemer
+   trait = temperate
+   trait = deceitful
+  disallow_random_traits = yes
+
+  772.09.25 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+77779 = {
+   name = "Bouphe"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = yes
+   #historical = yes 
+   father = 77774
+   dna = "i0000000000"
+
+   trait = grey_eminence	
+   trait = groomed
+   trait = patient
+   trait = gamer	
+   trait = diligent
+   trait = gregarious
+  disallow_random_traits = yes
+
+  774.03.20 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+77780 = {
+   name = "Lydia"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = yes
+   #historical = yes 
+   father = 77774
+   dna = "b0000000000"
+
+   trait = brilliant_strategist	
+   trait = giant
+   trait = sturdy
+   trait = strategist	
+   trait = humble
+   trait = just
+   trait = gregarious
+   trait = flanker
+  disallow_random_traits = yes
+
+  774.03.09 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+77781 = {
+   name = "Ravs"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   father = 77774
+   dna = "g0000000000"
+
+   trait = grey_eminence	
+   trait = quick
+   trait = brawny
+   trait = hunter	
+   trait = patient
+   trait = gregarious
+   trait = zealous
+   trait = holy_warrior
+  disallow_random_traits = yes
+
+  778.08.11 = {
+    birth = yes
+  }
+
+  804.12.01 = {
+    employer = 454500
+   }
+}
+
+77784 = {
+   name = "Harry"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "h0000000000"
+
+   trait = underhanded_rogue	
+   trait = fair
+   trait = genius
+   trait = shrewd
+   trait = architect	
+   trait = wroth
+   trait = arbitrary
+   trait = gregarious
+  disallow_random_traits = yes
+
+  776.10.26 = {
+    birth = yes
+  }
+}
+
+77785 = {
+   name = "ISP"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "i0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77786 = {
+   name = "Alex Rambler"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "j0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77787 = {
+   name = "Zylus"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "k0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77788 = {
+   name = "Rythian"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "l0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77789 = {
+   name = "Pyrion"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "m0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77790 = {
+   name = "Daltos"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "n0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
+
+77791 = {
+   name = "Leo"
+   dynasty = 77770
+   culture = "yogs"
+   religion = "goone_squad"
+   female = no
+   #historical = yes 
+   dna = "b0000000000"
+
+  771.07.08 = {
+    birth = yes
+  }
+}
