@@ -1,0 +1,127 @@
+decisions = {
+   make_yogventures = {
+     is_high_prio = yes # Will show an alert once decision is enabled
+     ai_check_interval = 12 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+     potential = {
+			is_playable = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+				is_nomadic = yes
+			}
+			prisoner = no
+			OR = {
+				religion_group = yogscast_religion_group
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}
+			NOR = {
+				has_character_modifier = holding_large_feast
+				has_character_modifier = large_feast_timer
+				has_character_modifier = fabulous_feast
+				has_character_flag = guest_feast_started
+				liege = {
+					has_character_modifier = holding_large_feast
+				}
+			}			
+			num_of_vassals = 1
+		}
+     allow = {
+			war = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			wealth = 25
+			prestige = 10
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+		}
+     effect = {
+       #Commands executed when taking the decision
+       wealth = 500
+       add_character_modifier = {
+				name = holding_large_feast
+				duration = -1
+			}
+			set_character_flag = recent_minor_decision
+			set_character_flag = do_not_disturb
+			hidden_tooltip = { character_event = { id = 72999 days = 150 } } # Safety catch flag clearing
+			
+			hidden_tooltip = {
+				character_event = { 
+					id = 72109  
+				}
+			}
+     }
+     ai_will_do = {
+       #Factors for an AI character to take the decision (1 = 100% chance)
+     }
+   }
+
+
+   host_yogcon = {
+     is_high_prio = yes # Will show an alert once decision is enabled
+     ai_check_interval = 12 # Determines how seldom the AI checks whether they can and should do the decision, in months. By default 1 (every month).
+     potential = {
+			is_playable = yes
+			OR = {
+				is_feudal = yes
+				is_tribal = yes
+				is_nomadic = yes
+			}
+			prisoner = no
+			OR = {
+				religion_group = yogscast_religion_group
+				has_alternate_start_parameter = { key = religion_names value = random }
+			}			
+		}
+     allow = {
+			war = no
+			custom_tooltip = {
+				text = UNOCCUPIED_DEMESNE_TITLE
+				hidden_tooltip = {
+					any_demesne_title = {
+						NOT = { higher_tier_than = count }
+						is_occupied = no
+					}
+				}
+			}
+			prisoner = no
+			NOT = { is_inaccessible_trigger = yes }
+			wealth = 250
+			custom_tooltip = {
+				text = is_not_busy_trigger_tooltip
+				hidden_tooltip = { NOT = { has_character_flag = do_not_disturb } }
+			}
+		}
+     effect = {
+       capital_scope = {
+				ROOT = {
+					spawn_unit = {
+						province = PREV
+						owner = ROOT
+						disband_on_peace = no
+						troops = {
+							horse_archers = { 5000 5000 }
+							knights = { 2500 2500 }
+							light_cavalry = { 1500 1500  }
+							light_infantry = { 1000 1000  }
+						}
+					}
+				}
+			}
+     }
+     ai_will_do = {
+       #Factors for an AI character to take the decision (1 = 100% chance)
+     }
+   }
+}
