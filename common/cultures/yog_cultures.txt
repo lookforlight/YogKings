@@ -1,0 +1,96 @@
+yogscast_group = {
+   # graphical_cultures = { staticgfx englishgfx }
+   
+   yogs = {
+      alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+      graphical_cultures = { staticgfx englishgfx}
+      color = { 0.3 0.55 0.8 }
+      allow_in_ruler_designer = yes
+		allow_looting = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = no
+		disinherit_from_blinding = no
+		dukes_called_kings = no
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		horde = no
+		seafarer = no
+		used_for_random = no
+		
+		modifier = default_culture_modifier
+		
+		character_modifier = {
+		}
+		
+		male_names = {
+			Lewis Simon Duncan Sips Tom Ben Spiff Rythian Zylus Xephos Honeydew Angory Martyn Nilesy Ravs Trottimus Smiffy Ross Pyrion Craig Sam Steve Harry Barry Pedguin Alex MadCat Grizwald Ted Doncon Zips Chris Littlewood Trott Smith Alsmiffy Hornby Djh3max Joakim Flax Hulmes Wilsonator Wilson iSorrow ISP Bates Rich Daff Pepeg
+		} 
+		female_names = {
+			Leo Bouphe Lydia Kim Zoey Fiona Nina Jane Radders Geestar Chrissa Nysira Bea Mousie MadCat Becky Jane Nanosounds Proasheck Zoeya Leozaur Serena Nina-Serena Pepega
+		}
+		
+		from_dynasty_prefix = ""
+		male_patronym = ""
+		female_patronym = ""
+		prefix = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 5
+   }
+   pickens = {
+      alternate_start = {
+			OR = {
+				year < 1000 
+				has_alternate_start_parameter = { key = culture value = full_random }
+			}
+		}
+      graphical_cultures = { pickensgfx englishgfx}
+      color = { 0.4 0.6 0.5 }
+      allow_in_ruler_designer = yes
+		allow_looting = yes
+		baron_titles_hidden = yes
+		count_titles_hidden = no
+		disinherit_from_blinding = no
+		dukes_called_kings = no
+		dynasty_title_names = no
+		founder_named_dynasties = no
+		horde = no
+		seafarer = no
+		used_for_random = no
+		
+		modifier = default_culture_modifier
+		
+		character_modifier = {
+		}
+		
+		male_names = {
+			Lewis Simon Duncan Sips Tom Ben Spiff Rythian Zylus Xephos Honeydew Angory Martyn Nilesy Ravs Trottimus Smiffy Ross Pyrion Craig Sam Steve Harry Barry Pedguin Alex MadCat Grizwald Ted Doncon Zips Chris Littlewood Trott Smith Alsmiffy Hornby Djh3max Joakim Flax Hulmes Wilsonator Wilson iSorrow ISP Bates Rich Daff Pepeg
+		} 
+		female_names = {
+			Leo Bouphe Lydia Kim Zoey Fiona Nina Jane Radders Geestar Chrissa Nysira Bea Mousie MadCat Becky Jane Nanosounds Proasheck Zoeya Leozaur Serena Nina-Serena Pepega
+		}
+		
+		from_dynasty_prefix = ""
+		male_patronym = ""
+		female_patronym = ""
+		prefix = no
+
+		pat_grf_name_chance = 30
+		mat_grf_name_chance = 15
+		father_name_chance = 5
+		
+		pat_grm_name_chance = 30
+		mat_grm_name_chance = 15
+		mother_name_chance = 5
+   }
+}

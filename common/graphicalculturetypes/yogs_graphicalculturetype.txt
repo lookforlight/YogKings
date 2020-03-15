@@ -1,0 +1,2 @@
+staticgfx = { skin_tone = 0 }
+pickensgfx = { skin_tone = 0}

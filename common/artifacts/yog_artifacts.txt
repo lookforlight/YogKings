@@ -1,0 +1,203 @@
+harpoon = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+beepulon = { 
+	monthly_character_prestige = 0.75
+	martial = 3
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = shark_guard
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+barrel = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+fkg = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+barnacle = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+bat = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+fart_grenade = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}
+
+death_box = { 
+	monthly_character_prestige = 0.75
+	martial = 5
+	combat_rating = 50
+	command_modifier = {
+		cavalry = 0.10
+		pikemen = 0.15
+	}
+	quality = 4
+	active = {
+		is_adult = yes
+      is_feudal = yes
+		OR = { 
+			religion = goone_squad
+		} 
+	}
+	flags = { combat_weapon lance created }
+	stacking = no
+	picture = "GFX_the_impaler"
+	slot = weapon
+   indestructible = yes
+	allowed_gift = {
+		always = no
+	}
+}

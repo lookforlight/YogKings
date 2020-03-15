@@ -1,0 +1,31 @@
+77770 = { name = "Yogscast" 
+	  	culture="yogs"
+      religion="goone_squad"
+      coat_of_arms = {
+            template = 0
+            layer = {
+                  texture = 0
+                  texture_internal = 19
+                  emblem = 16
+                  color = 0
+                  color = 13
+                  color = 0
+            }
+         } 
+}
+
+66660 = { name = "Pickens" 
+	  	culture="pickens"
+      religion="goone_squad"
+      coat_of_arms = {
+            template = 0
+            layer = {
+                  texture = 0
+                  texture_internal = 19
+                  emblem = 10
+                  color = 0
+                  color = 13
+                  color = 0
+            }
+         } 
+}

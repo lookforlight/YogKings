@@ -1,0 +1,63 @@
+yogscast_religion_group = {
+   has_coa_on_barony_only = no
+	graphical_culture = westerngfx
+   playable = yes
+   hostile_within_group = yes
+   ai_fabricate_claims = no
+
+   color = { 0.6 0.0 0.0 }
+   interface_skin = { pagan_interface }
+   
+   goone_squad = {
+      alternate_start = { always = no }
+      ai_convert_same_group = 0
+      ai_convert_other_group = 2
+      graphical_culture = westerngfx
+      icon = 49
+		color = { 0.4 0.4 0.4 }
+      crusade_name = "CRUSADE"
+      scripture_name = YOGPOD
+      high_god_name = MOCHI
+      god_names = { MOCHI MANDREW TODDY CHAMPION_OF_PEOPLE }
+      evil_god_names = { PUSHER KHAZRAK ISRAPHEL }
+      piety_name = JAFFA
+      priest_title = STREAMER
+      priests_can_marry = yes
+
+      investiture = yes
+      can_excommunicate = yes
+      can_grant_divorce = yes
+      can_grant_invasion_cb = invasion
+      can_grant_claim = yes
+      can_call_crusade = yes
+   }
+
+   shark_guard = {
+      ai_convert_same_group = 0
+      ai_convert_other_group = 2
+      graphical_culture = westerngfx
+      alternate_start = {
+			OR = {
+				year < 1100
+				has_alternate_start_parameter = { key = religion value = full_random }
+			}
+		}
+      icon = 48
+      color = { 0.25 0.5 0.75 }
+      crusade_name = "CRUSADE"
+      scripture_name = YOGPOD
+      high_god_name = CHAMPION_OF_PEOPLE
+      god_names = { CHAMPION_OF_PEOPLE SHARKY }
+      evil_god_names = { PALP }
+      piety_name = TRUST
+      priest_title = DETECTIVE
+      priests_can_marry = yes
+
+      investiture = yes
+      can_excommunicate = yes
+      can_grant_divorce = yes
+      can_grant_invasion_cb = invasion
+      can_grant_claim = yes
+      can_call_crusade = yes
+   }
+}

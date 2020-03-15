@@ -1,0 +1,109 @@
+bm_rise_of_the_yogscast = {
+	name = "BM_YOGSCAST"
+	desc = "BM_YOGSCAST_ERA_INFO"
+	date = 805.1.1
+   era = yes
+   picture = GFX_pick_era_image_4
+	
+	selectable_character = {
+		id = 77771 # Lewis
+      age = 36
+		title = d_somerset
+		title_name = d_somerset
+      name = "Lewis"
+
+      character = {
+         dna = p0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="yogs"
+         government = feudal_government
+         dynasty=77770
+      }
+	}
+
+	selectable_character = {
+		id = 77773 # Sips
+      age = 38
+		title = d_hampshire
+		title_name = d_hampshire
+      name = "Sips"
+
+      character = {
+         dna = c0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="yogs"
+         government = feudal_government
+         dynasty=77770
+      }
+	}
+
+	selectable_character = {
+		id = 77777 # Spiff
+      age = 30
+		title = d_gloucester
+		title_name = d_gloucester
+      name = "Spiff"
+
+      character = {
+         dna = e0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="yogs"
+         government = feudal_government
+         dynasty=77770
+      }
+	}
+
+	selectable_character = {
+		id = 77781 # Ravs
+      age = 26
+		title = k_scotland
+		title_name = k_scotland
+      name = "Ravs"
+
+      character = {
+         dna = g0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="yogs"
+         government = feudal_government
+         dynasty=77770
+      }
+	}
+
+	selectable_character = {
+		id = 77782 # RT Game
+      age = 24
+		title = d_meath
+		title_name = d_meath
+      name = "RT Game"
+
+      character = {
+         dna = b0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="pickens"
+         government = feudal_government
+         dynasty=66660
+      }
+	}
+
+	selectable_character = {
+		id = 77787 # Zylus
+      age = 33
+		title = k_frisia
+		title_name = k_frisia
+      name = "Zylus"
+
+      character = {
+         dna = k0000000000
+         properties = aj00bc00000
+         religion="goone_squad"
+         culture="yogs"
+         government = feudal_government
+         dynasty=77770
+      }
+	}
+}
